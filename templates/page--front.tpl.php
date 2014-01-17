@@ -168,25 +168,25 @@
 
 
 	<!-- Foundation Slider -->
-    <?php if (theme_get_setting('slider_display','STARTER')): ?>
+    <?php if (theme_get_setting('slider_display','drupal_theme_foundation')): ?>
     
     
    
      <ul class="example-orbit" data-orbit>
   <li>
-    <img src="img/slide1.jpg" alt="slide 1" />
+    <img src="<?php print base_path() . drupal_get_path('theme', 'drupal_theme_foundation') ;?>/images/slide1.jpg" alt="slide 1" />
     <div class="orbit-caption">
       Caption One.
     </div>
   </li>
   <li>
-    <img src="img/slide2.jpg" alt="slide 2" />
+    <img src="<?php print base_path() . drupal_get_path('theme', 'drupal_theme_foundation') ;?>/images/slide2.jpg" alt="slide 2" />
     <div class="orbit-caption">
       Caption Two.
     </div>
   </li>
   <li>
-    <img src="img/slide3.jpg" alt="slide 3" />
+    <img src="<?php print base_path() . drupal_get_path('theme', 'drupal_theme_foundation') ;?>/images/slide3.jpg" alt="slide 3" />
     <div class="orbit-caption">
       Caption Three.
     </div>

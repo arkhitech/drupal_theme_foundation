@@ -160,7 +160,7 @@
       <?php print render($page['content']); ?>
 
 	<!-- Foundation Slider -->
-    <?php if (theme_get_setting('slider_display','STARTER')): ?>
+    <?php if (theme_get_setting('slider_display','drupal_theme_foundation')): ?>
     
     
    
