@@ -51,7 +51,6 @@
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <?php print $styles; ?>
-  <?php print $scripts; ?>
   <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -63,11 +62,23 @@
   <?php print $page_top; ?>
   <?php print $page; ?>
   <?php print $page_bottom; ?>
+  <?php print $scripts; ?>
   <?php print _zurb_foundation_add_reveals(); ?>
   <script>
     (function ($, Drupal, window, document, undefined) {
-      $(document).foundation();
+      $(document).foundation({
+                orbit: {
+                    animation: 'slide',
+                    timer_speed: 3000,
+                    pause_on_hover: false,
+                    animation_speed: 500,
+                    navigation_arrows: false,
+                    bullets: false,
+                    next_on_click: true
+                }
+            });
     })(jQuery, Drupal, this, this.document);
   </script>
+        
 </body>
 </html>

@@ -40,7 +40,7 @@ scripts[] = js/vendor/custom.modernizr.js
 ; Foundation framework scripts (minified).
 ; If you prefer to have more control over which components are included you
 ; can comment this line and uncomment the ones below you want.
-scripts[] = js/foundation.min.js
+;scripts[] = js/foundation.min.js
 
 ; Foundation framework scripts (uncompressed).
 scripts[] = js/foundation/foundation.js
@@ -59,6 +59,7 @@ scripts[] = js/foundation/foundation.reveal.js
 scripts[] = js/foundation/foundation.section.js
 scripts[] = js/foundation/foundation.tooltips.js
 scripts[] = js/foundation/foundation.topbar.js
+
 
 ; Theme scripts.
 ; This file is empty, just uncomment this line and start editing!
