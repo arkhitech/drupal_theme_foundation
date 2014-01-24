@@ -226,7 +226,7 @@
 <div class="home_service large-4 medium-4 small-12">
   <div class="s_title s_color_1">
     <div class="st_in">
-      <h2>User-friendly design</h2>
+      <h2>Responsive Design</h2>
     </div>
   </div>
   <div class="service_text s_users">
@@ -242,7 +242,7 @@
 <div class="home_service large-4 medium-4 small-12">
   <div class="s_title s_color_2">
     <div class="st_in">
-      <h2>Super-easy to customize</h2>
+      <h2>Profoundly Customizable</h2>
     </div>
   </div>
   <div class="service_text s_magic">
@@ -258,7 +258,7 @@
 <div class="home_service large-4 medium-4 small-12">
   <div class="s_title s_color_3">
     <div class="st_in">
-      <h2>Responsive design</h2>
+      <h2>Clean & Modern Design</h2>
     </div>
   </div>
   <div class="service_text s_mobile">
