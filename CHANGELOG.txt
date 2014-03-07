@@ -1,0 +1,30 @@
+ drupal_theme_foundation 17-01-2014
+
+ ----------------------------------
+
+ Adds all beta 1.0 files.
+
+ Adjusted settings, and fixed naming.
+
+ Added installation notes, and adjusted setting for slider display.
+
+ ----------------------------------
+
+
+ drupal_theme_foundation 23-01-2014
+
+ ----------------------------------
+ 
+ Add homepage content and update javascript files
+
+ ----------------------------------
+
+
+ drupal_theme_foundation 24-01-2014
+
+ ----------------------------------
+ 
+ Added GPL License and updated theme frontend
+
+ ----------------------------------
+
